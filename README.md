@@ -10,7 +10,7 @@
 
 Install the project dependencies:
 ```
-pipenv install
+pipenv install --three
 ```
 
 Enable pipenv environment:
