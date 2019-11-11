@@ -37,7 +37,7 @@ if __name__ == "__main__":
                        help='Bot running mode',
                        action="store_true")
     args = parser.parse_args()
-    if args.robot:
+    if args.bot:
         run_as_robot()
     else:
         run_single_command(args.command[0])
