@@ -2,7 +2,7 @@ from praw import Reddit
 
 from config import config
 
-MIN_SCORE = config.get('reddit', 'min_score')
+MIN_SCORE = config.getint('reddit', 'min_score')
 
 class Subreddits:
     def __init__(self,
